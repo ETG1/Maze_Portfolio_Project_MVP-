@@ -43,7 +43,7 @@ Welcome to Eli's Maze Demo, a simple 3D raycasting maze game built using SDL2 an
    ```sh
    g++ main.cpp -o maze_demo `sdl2-config --cflags --libs` -lSDL2_image
 
-## Run
+4. **Run**:
 To run the demo, execute the compiled binary:
    ./maze_demo
 
@@ -51,19 +51,19 @@ To run the demo, execute the compiled binary:
 The project consists of a single C++ file that handles initialization, game logic, and rendering. Below is an overview of the main components and functions.
 
 ## Main Components
-Constants and Global Variables: Define screen dimensions, texture sizes, map layout, player position, and direction vectors.
-Textures: Arrays to hold wall, floor, and ceiling textures.
+- Constants and Global Variables: Define screen dimensions, texture sizes, map layout, player position, and direction vectors.
+- Textures: Arrays to hold wall, floor, and ceiling textures.
 Map: A 2D vector representing the layout of the maze.
 
 ## Functions
-loadTextures: Loads texture images from files.
-drawFloorAndCeiling: Renders the floor and ceiling of the maze.
-drawWalls: Renders the walls of the maze using raycasting.
-moveForward: Moves the player forward in the direction they are facing.
-moveBackward: Moves the player backward.
-rotateLeft: Rotates the player to the left.
-rotateRight: Rotates the player to the right.
-main: The main function initializes SDL, loads textures, handles events, and runs the rendering loop.
+- loadTextures: Loads texture images from files.
+- drawFloorAndCeiling: Renders the floor and ceiling of the maze.
+- drawWalls: Renders the walls of the maze using raycasting.
+- moveForward: Moves the player forward in the direction they are facing.
+- moveBackward: Moves the player backward.
+- rotateLeft: Rotates the player to the left.
+- rotateRight: Rotates the player to the right.
+- main: The main function initializes SDL, loads textures, handles events, and runs the rendering loop.
 
 ## Textures
 The textures used in the demo are essential for providing a visual representation of the walls, floor, and ceiling. The texture files should be placed in a pics directory in the same location as the executable. The textures used in this demo are:
@@ -72,16 +72,14 @@ wall5.png
 wall6.png
 wall4.png
 
-##Contributing
+## Contributing
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+1. Fork the repository.
+2. Create a new branch (```sh`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add amazing new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
 
 ## Acknowledgements
 SDL2: Simple DirectMedia Layer
