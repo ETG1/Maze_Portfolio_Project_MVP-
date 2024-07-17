@@ -45,6 +45,7 @@ Welcome to Eli's Maze Demo, a simple 3D raycasting maze game built using SDL2 an
 
 4. **Run**:
 To run the demo, execute the compiled binary:
+
    ./maze_demo
 
 ## Code Overview
@@ -76,7 +77,7 @@ wall4.png
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
 1. Fork the repository.
-2. Create a new branch (```sh`git checkout -b feature-branch`).
+2. Create a new branch (```sh git checkout -b feature-branch).
 3. Commit your changes (`git commit -m 'Add amazing new feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
