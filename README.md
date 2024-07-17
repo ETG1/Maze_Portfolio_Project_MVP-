@@ -45,7 +45,6 @@ Welcome to Eli's Maze Demo, a simple 3D raycasting maze game built using SDL2 an
 
 ## Run
 To run the demo, execute the compiled binary:
-   ```sh
    ./maze_demo
 
 ## Code Overview
